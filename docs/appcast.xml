@@ -1,2 +1,28 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"><channel><title>Mellow updates</title><description>Signed Mellow macOS releases.</description><language>en</language></channel></rss>
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <item>
+      <title>1.0.2</title>
+      <pubDate>Tue, 06 Oct 2026 00:12:27 +0530</pubDate>
+      <sparkle:channel>release</sparkle:channel>
+      <sparkle:version>1.0.2</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown">Mellow 1.0.2 for Apple silicon Macs.
+
+- Redesigned settings and quick panel.
+- Signed automatic update support with an update-available prompt.
+- Unified update status in settings and the quick panel.
+
+This prerelease is undergoing update/install qualification. Both the application and disk image have passed Apple notarization. General release promotion awaits the live upgrade and relaunch check.
+
+Earlier builds with updates disabled require one manual installation of an update-enabled release.
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.2/Mellow-1.0.2.dmg" length="520125150" type="application/octet-stream" sparkle:edSignature="MfS5OKJ2qjgVGgAqcw4nhYpAD9oD4fGYapt6F/SLbATj0UNyQUxBDUMPoPk1pFDCfQfsd1kqH25tXV+eHUZoAA==" />
+    </item>
+    <title>Mellow updates</title>
+    <description>Signed Mellow macOS releases.</description>
+    <language>en</language>
+  </channel>
+</rss>
