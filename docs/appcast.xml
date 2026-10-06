@@ -2,6 +2,35 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.3-beta.1</title>
+      <pubDate>Tue, 06 Oct 2026 12:41:40 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.3-beta.1</sparkle:version>
+      <sparkle:shortVersionString>1.0.3-beta.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.3 Preview
+
+A preview for Apple silicon Macs, with refreshed chat and model selection, quick and companion panels, clearer local-server recovery, and voice and pairing lifecycle improvements.
+
+## Install or update
+
+Download **Mellow-1.0.3-beta.1.dmg** from this release and move Mellow to Applications. Existing users can also enable **Beta Updates** in Mellow to receive this preview through the signed update feed. The default stable channel does not automatically offer this beta.
+
+## What to expect
+
+- Local models and configured providers remain separate from Cloud workspace access. Download a local model or connect a provider before chatting.
+- Cloud features require a configured, authenticated workspace and the appropriate permissions. Delegated agent work also requires published, eligible agents. Workspace sign-in does not supply independent cloud-model service credits.
+- The iPhone companion is still in user testing. Pairing, relay availability and model access depend on the host Mac; this release does not establish every phone/network combination as qualified.
+- Voice input requires microphone permission and a transcription model. Global insertion can additionally require Accessibility permission. Recognition quality depends on the microphone and environment.
+- This is a preview: final visual checks for every layout and end-to-end checks for every account/device flow are not complete. There are no Windows, Linux desktop or Android app downloads in this release.
+
+The macOS package is Developer ID signed and notarized. Signing and notarization verify distribution integrity; they do not imply all external services or account flows are configured.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.3-beta.1/Mellow-1.0.3-beta.1.dmg" length="443248070" type="application/octet-stream" sparkle:edSignature="HtQE6CUllUa6oOcsNoH1qANDfpwzSD7tw09Rvaz+5uHZMjHJMV/Nd1EITfbkOJmmtly6Nvi9peCm7YFimiWfCA==" />
+    </item>
+    <item>
       <title>1.0.2</title>
       <pubDate>Tue, 06 Oct 2026 00:12:27 +0530</pubDate>
       <sparkle:channel>release</sparkle:channel>
