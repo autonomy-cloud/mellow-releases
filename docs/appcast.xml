@@ -2,6 +2,41 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.4</title>
+      <pubDate>Fri, 09 Oct 2026 07:57:51 +0000</pubDate>
+      <sparkle:channel>release</sparkle:channel>
+      <sparkle:version>1.0.49999</sparkle:version>
+      <sparkle:shortVersionString>1.0.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.4
+
+This update fixes update detection and includes the latest agent-call controls and audio-routing improvements.
+
+## Updates that move forward
+
+Mellow now uses a separate numeric build version so the updater can distinguish releases correctly. Earlier 1.0.3 previews could appear equal to one another and incorrectly report that no update was available. The displayed version remains 1.0.4.
+
+## Calls and meetings
+
+- Return to an active call or meeting from chat to reach its controls and leave.
+- Meeting and paired-call hosts keep media off the host Mac's speakers and microphone, including after network reconnects. Direct calls retain normal local audio.
+- Call replies wait for the agent's complete response. Calls retain the existing agent and conversation.
+
+## Install or update
+
+Download **Mellow-1.0.4.dmg** and move Mellow to Applications, or use **Check for Updates** in Mellow. This release is for Apple silicon Macs. Existing agent settings and conversations are retained.
+
+## Call feature status
+
+Calls and meetings remain in testing. They require an authenticated Cloud workspace with matching call and meeting services configured; installing the app does not deploy those services. Teams voice was exercised with a local development workspace. Hosted deployment, Teams text-chat delivery, the complete leave/rejoin lifecycle, and iPhone relay calls are not yet fully qualified. Multiple speakers are not yet reliably attributed by name in the agent's transcript.
+
+Local models and configured providers remain separate from Cloud workspace access. No Windows, Linux, or Android application build is included.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.4/Mellow-1.0.4.dmg" length="459694622" type="application/octet-stream" sparkle:edSignature="FM1s7PhMmKb7Jku8sedJNb84nWQZbxh+DPeDgsOqyjqqiFIWdb9kfx6fFKLKi+W2agng85n0SmMbTEZYUSOmAg==" />
+    </item>
+    <item>
       <title>1.0.3-beta.3</title>
       <pubDate>Fri, 09 Oct 2026 03:50:45 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
