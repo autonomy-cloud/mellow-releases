@@ -2,6 +2,52 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.3-beta.3</title>
+      <pubDate>Fri, 09 Oct 2026 03:50:45 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.3-beta.3</sparkle:version>
+      <sparkle:shortVersionString>1.0.3-beta.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.3 Preview 3
+
+An Apple silicon preview of agent calls and meeting controls, with fixes for audio routing and reply completion.
+
+## What's new
+
+- Agent calls use the existing agent and saved conversation. Repeated joins to the same meeting continue its conversation.
+- Return to an active call or meeting from chat to reach its controls and leave the meeting.
+- Meeting and paired-call hosts keep media off the Mac's speakers and microphone, including after a network reconnect. Direct calls on the Mac retain their normal audio controls.
+- Call replies wait for the agent's complete response before delivery.
+
+## Local model updates
+
+- Discover a smaller, curated catalog with clear model sources.
+- Download Visca's independently converted Qwen3 1.7B MLX 4-bit model, with a Mellow model card, conversion details, and original-author attribution.
+- Use Liquid's published LFM2.5 1.2B MLX 4-bit model for local chat.
+- Import compatible Hugging Face models directly. Existing installed models remain available, and downloads retain model licence and notice files.
+- Short numeric answers remain visible when streamed replies finish, and cached model weight sizes account for symbolic links.
+
+The initial image catalog is empty; compatible image models can still be imported. Gemma is not included in this beta. Model downloads require an internet connection; downloaded local models run on your Mac. Tool support depends on the selected model. This beta does not introduce Windows, Linux, or Android builds.
+
+## Install or update
+
+Download **Mellow-1.0.3-beta.3.dmg** and move Mellow to Applications. Existing users can enable **Beta Updates** to receive the preview through the signed update feed. The stable channel does not automatically offer this beta.
+
+## Preview scope
+
+- Calls and meeting participation require an authenticated Cloud workspace with the matching call and meeting services configured. Installing this Mac app alone does not deploy or enable those services.
+- Teams voice has been exercised with a local development workspace. Hosted deployment and every account/network combination are not qualified by that test.
+- Teams text-chat delivery is still being verified. Do not rely on meeting chat for unattended work in this preview.
+- Multiple speakers are not yet reliably attributed by name in the agent's transcript.
+- iPhone relay calls and the complete leave/rejoin lifecycle remain in testing.
+
+This is an opt-in testing preview, not a claim that every call, model, or device workflow is production-ready.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.3-beta.3/Mellow-1.0.3-beta.3.dmg" length="459694369" type="application/octet-stream" sparkle:edSignature="FGroNTCqASeZ0fQD+xOSjyjb+ERmgUYMQKkDl0yTYHkLxS2L4E1FtJe7l4Dd8x9RUwe6RcPsr8kbWhlhKlwHDQ==" />
+    </item>
+    <item>
       <title>1.0.3-beta.2</title>
       <pubDate>Tue, 06 Oct 2026 16:19:18 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
