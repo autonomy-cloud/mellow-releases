@@ -2,6 +2,32 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.5</title>
+      <pubDate>Sat, 10 Oct 2026 07:00:03 +0000</pubDate>
+      <sparkle:channel>release</sparkle:channel>
+      <sparkle:version>1.0.59999</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.5
+
+## Agent voices and models in calls
+
+- Call replies use the agent’s selected voice and the Mac’s configured speech provider, model, and speed or temperature settings.
+- Meeting conversations refresh the agent’s configured model before each spoken turn. Direct calls preserve an explicit model selection in the chat.
+- An unavailable model or voice produces an error instead of silently switching to a different configuration.
+- Meeting audio stays in the call. The agent’s speak tool cannot also play its response through the host Mac’s speakers.
+
+## Compatibility and testing status
+
+This build requires a matching updated call worker. Installing the app alone does not update the hosted service. Calls remain in testing; a final live Teams voice check and hosted rollout are pending. Speech recognition continues to use the call service’s transcription provider. Desktop automatic read-aloud is separate from speech in an explicitly started call.
+
+Existing agent settings and conversations are retained. This build targets Apple silicon Macs; no Windows, Linux, or Android application build is included.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.5/Mellow-1.0.5.dmg" length="459651586" type="application/octet-stream" sparkle:edSignature="I7+JzDVwp5NQtswm4w/HxADhLC4YjQKALZ9782Gif3b5oRw1jFbmDCQ0Dn+7w2IczRJvuO/tY0ji3yM43eJzBg==" />
+    </item>
+    <item>
       <title>1.0.4</title>
       <pubDate>Fri, 09 Oct 2026 07:57:51 +0000</pubDate>
       <sparkle:channel>release</sparkle:channel>
