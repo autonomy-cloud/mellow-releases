@@ -2,6 +2,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6-beta.1</title>
+      <pubDate>Sat, 10 Oct 2026 22:55:24 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.60001</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6 Preview 1
+
+This preview improves agent speech and keeps call controls close to your conversation.
+
+- Speech streams continuously with playback buffering that adapts to slower connections. Your agent's configured voice and speech settings remain in use.
+- Interrupting or leaving stops the active speech stream. Call startup handles worker connection timing more reliably.
+- A compact call panel stays with your chat, with microphone, camera, video visibility and end-call controls. Navigate away and return to the same conversation to resume its controls.
+
+Download **Mellow-1.0.6-beta.1.dmg** for Apple silicon Macs, or enable **Beta Updates** in Mellow. Existing agents, settings and conversations are retained. Stable-channel users are not automatically offered this preview.
+
+Calls require an authenticated Cloud workspace and configured call services. Speech has been checked on M4 against the Develop workspace, including a user listening check for short and longer replies and interruption. This preview does not establish new Teams, iPhone relay, or every device/network combination as qualified. Slow speech generation can increase the initial wait before playback.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.1/Mellow-1.0.6-beta.1.dmg" length="459730050" type="application/octet-stream" sparkle:edSignature="pZ8IgSYqMMag0TRoWDryBk9t6fioQEd9PrVry6lXRIbdVVAEGmrn1Ioi7C159iRv9CV0/zEeOYIKLIzkLqWqDA==" />
+    </item>
+    <item>
       <title>1.0.5</title>
       <pubDate>Sat, 10 Oct 2026 07:00:03 +0000</pubDate>
       <sparkle:channel>release</sparkle:channel>
