@@ -2,6 +2,23 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6-beta.3</title>
+      <pubDate>Sun, 11 Oct 2026 18:47:34 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.60003</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6-beta.3
+
+- Open paired Mac conversations in their own device tab group.
+- Switch between host conversations while keeping drafts and tracked work available.
+- Reopen saved host conversations after restarting Mellow, with their history staying on the paired Mac.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.3/Mellow-1.0.6-beta.3.dmg" length="459838937" type="application/octet-stream" sparkle:edSignature="y2yR2nCm6+0uU/7BZU5IcKBrvjcsDrGddImQDUwinJvE6w8E11niz9vZSnOev+7xx0xa+UlHdwiRit0jI8kKCA==" />
+    </item>
+    <item>
       <title>1.0.6-beta.2</title>
       <pubDate>Sun, 11 Oct 2026 13:01:01 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
