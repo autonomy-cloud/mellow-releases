@@ -2,6 +2,27 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6-beta.5</title>
+      <pubDate>Mon, 12 Oct 2026 01:58:00 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.60005</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6-beta.5
+
+- Connect Mellow Cloud workspaces and browse their agents from the main app.
+- Submit workspace tasks, follow their progress, cancel running work, and revisit saved results.
+- Run authorized workspace tasks on this Mac while keeping host access explicit and revocable.
+- Improve workspace sign-in recovery and show a clear connection error when a service is unavailable.
+- Preserve task results across restarts and prevent interrupted work from replaying automatically.
+
+Files, memory, and execution remain on the selected host. Workspace task execution requires a compatible workspace service and an explicitly connected Mac host. Reconnect the host after its connection or authority is lost; interrupted tasks are not replayed automatically.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.5/Mellow-1.0.6-beta.5.dmg" length="459916942" type="application/octet-stream" sparkle:edSignature="rO+TWobMfYfCekC17Bhx/vI32mv83BE/UYN1AG3Jnhgoyat7kU2jmHdfKSH0Pa67Sp0o2EOx8Mdwz3GmOd4gDQ==" />
+    </item>
+    <item>
       <title>1.0.6-beta.4</title>
       <pubDate>Sun, 11 Oct 2026 22:32:14 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
