@@ -2,6 +2,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6-beta.10</title>
+      <pubDate>Sun, 18 Oct 2026 08:57:39 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.60010</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.10</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6-beta.10
+
+- Add Mac support for the native Mellow iPhone and iPad companion, with encrypted connections and QR-first pairing.
+- Let paired owners manage supported agent and project configuration, Conversation preferences, and engine settings through reviewed changes on the Mac.
+- Add protected chat editing, regeneration, exchange removal, retained-task replies, and response-inspection endpoints for compatible mobile clients.
+- Improve retained conversation continuity, project context, model options and favourites, and authenticated agent portraits.
+- Show captured sampling overrides accurately in Insights instead of reporting an output limit that was not requested.
+
+This is an incremental beta and an iOS companion support preview, not complete desktop parity. Some desktop settings, project file and knowledge-content management, and voice/call features remain unavailable on iOS. Complete paired-device, lifecycle, media, accessibility, and iPad validation is still in progress. An intermittent rapid Inspector-dismissal/navigation issue remains under investigation. The iOS app is distributed separately; updating the Mac does not install it.
+
+Existing pairing and owner-approval requirements remain in force. Update the Mac before using mobile features that require these new endpoints.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.10/Mellow-1.0.6-beta.10.dmg" length="460286893" type="application/octet-stream" sparkle:edSignature="TsUF7NtVjctzlqsOUFl/AQ5P8FC33pICSjViqRdfTnEAwbKYX/fyTbJ/G/AYIJNpuWBGh24yI4UYWOtwKzz8BQ==" />
+    </item>
+    <item>
       <title>1.0.6-beta.9</title>
       <pubDate>Tue, 13 Oct 2026 08:50:53 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
