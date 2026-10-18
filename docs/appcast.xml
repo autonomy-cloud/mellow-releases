@@ -2,6 +2,30 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6-beta.11</title>
+      <pubDate>Sun, 18 Oct 2026 16:54:48 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.60011</sparkle:version>
+      <sparkle:shortVersionString>1.0.6-beta.11</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6-beta.11
+
+- Bring workspace agents, tools, publishing, and Mac hosting into a consistent Mellow interface, with Settings in a centered dialog over your conversation.
+- Open a conversation directly from an agent card, and preserve the existing workspace connection when signing in again.
+- Improve local task continuity so follow-up requests use the latest conversation context, including after reconnecting or reopening Mellow.
+- Improve local-agent voice calls and cloud-avatar call handling, including pending starts, call controls, and ending a session. Prevent separate CAST deployments that share a media service from removing each other's call rooms.
+- Fix browser edits disappearing from React-controlled input and text fields after the page updates.
+- Fix file-history persistence and improve translations across the workspace interface.
+
+Local-agent voice was checked with an audible answer and a follow-up calculation; cloud-avatar video and an audible reply were checked separately. These checks do not establish support for every model, voice provider, or deployment. Local models can still add unsolicited text to otherwise correct answers.
+
+Workspace publishing and call improvements require a compatible CAST deployment and call worker. This beta does not add local-agent animated portrait video or change the iOS companion limitations described in beta.10.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.11/Mellow-1.0.6-beta.11.dmg" length="460625270" type="application/octet-stream" sparkle:edSignature="TYI+PVOHU2ef2fICZjXNNRJ3eQH/SjcU5U56aAzMqHBvfkG1FbtlfrJASm05tV3b+l7VWlfjfJjDdR2WgBWtBg==" />
+    </item>
+    <item>
       <title>1.0.6-beta.10</title>
       <pubDate>Sun, 18 Oct 2026 08:57:39 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
