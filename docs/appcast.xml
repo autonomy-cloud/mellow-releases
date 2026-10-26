@@ -2,6 +2,29 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.6</title>
+      <pubDate>Mon, 26 Oct 2026 08:20:05 +0000</pubDate>
+      <sparkle:channel>release</sparkle:channel>
+      <sparkle:version>1.0.69999</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.6
+
+- Organize agent profiles in local workspaces with persistent identities. Invite teammates and share selected agents through the existing Relay, using workspace membership, roles and scoped access.
+- Keep supported agent configuration in sync between this Mac and Mellow Cloud. Sync creates missing counterparts while preserving their identities; conflicts require an explicit choice.
+- Open shared and Cloud-linked agents in native chats. Agent cards now show where profiles are available and keep management, setup and hosting actions together.
+- Set up Cloud connections and agent publication through guided flows that use the selected account’s actual permissions, model and voice catalog.
+- Navigate settings with Back and Forward, find workspace actions through search, and expand instruction previews by clicking the full review row.
+- Manage and refresh Claude Code from Providers, with clearer recovery when its service rejects an expired or revoked sign-in.
+- Includes the preceding onboarding, settings organization and iPhone confirmation-layout improvements.
+
+Mellow Cloud is optional. Configuration sync does not transfer conversations, memory, files, credentials, private signing keys or Mac permissions, and it does not start hosting automatically. Shared agents remain subject to current workspace access and host availability. Voice, live avatars and remote execution require their configured services. The iPhone companion requires a paired Mac and is distributed separately through TestFlight.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6/Mellow-1.0.6.dmg" length="461335894" type="application/octet-stream" sparkle:edSignature="+baLGSSsZpQyiEYDMgnYuKGFLcGR8xq/lKPGP/tovd1TYdti54ijhck18e5rmC8C8U1Lgi3RwfPZXvlnBmvuBw==" />
+    </item>
+    <item>
       <title>1.0.6-beta.16</title>
       <pubDate>Wed, 21 Oct 2026 01:36:15 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
