@@ -2,6 +2,33 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.7-beta.1</title>
+      <pubDate>Wed, 04 Nov 2026 06:13:39 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.70001</sparkle:version>
+      <sparkle:shortVersionString>1.0.7-beta.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.7 Beta 1
+
+This beta adds native design and signal workspaces in Mellow’s existing interface.
+
+- Work with multiple CAD designs in a chat, using design tabs, the embedded editor, native modeling tools, and saved design sessions.
+- Use Sensors &amp; BCI to set up supported signal sources, inspect live signals, record and review sessions, calibrate, and select compatible local analysis models.
+- Find setup and model controls through the existing settings navigation, with guided setup and consistent model cards.
+- Continue delegated agent sessions, cancel active work, and recover without leaving a temporary local model blocking the next task.
+- Improved provider diagnostics and tool compatibility, including native Sonnet 5.5 tool selection.
+
+## Beta limitations
+
+Hardware support depends on the particular device, connection method, installed model, and available vendor services. Other-device and long-duration qualification is still ongoing. Signal analyses are exploratory and are not clinical measurements or diagnoses.
+
+Parallel delegation depends on the connected provider. Native GPT can issue worker requests sequentially, so simultaneous scheduling is not guaranteed on that route. Sonnet 5.5 supports the verified parallel workflows. Choose a provider compatible with the requested tools and generation options.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.7-beta.1/Mellow-1.0.7-beta.1.dmg" length="521536491" type="application/octet-stream" sparkle:edSignature="hCkmXwjOOkXNISg/5FW1S3LjCqv4Hv9m/3doWXu/osTHM0bw7PLAEuatfb8MyQPhN+0kDLmpeV0EPIlQPOoYDw==" />
+    </item>
+    <item>
       <title>1.0.6</title>
       <pubDate>Mon, 26 Oct 2026 08:20:05 +0000</pubDate>
       <sparkle:channel>release</sparkle:channel>
