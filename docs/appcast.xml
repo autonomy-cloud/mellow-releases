@@ -2,6 +2,36 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.7-beta.2</title>
+      <pubDate>Wed, 04 Nov 2026 21:20:36 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.70002</sparkle:version>
+      <sparkle:shortVersionString>1.0.7-beta.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.7 Beta 2
+
+This beta adds saved voice providers and individual speech settings for your agents.
+
+- Connect multiple OpenAI-compatible, ElevenLabs, Deepgram and Cartesia speech services with separate saved credentials and model/voice catalogs.
+- Choose speech output and recognition independently for each agent, or inherit workspace defaults without changing the agent’s chat model.
+- Keep speech on this Mac with PocketTTS and Parakeet, or select a hosted model, voice, language and supported playback speed.
+- Manage connections through Mellow’s existing interface, with guided setup, catalog refresh, speech previews and audio-file recognition tests.
+- Get visible progress and error feedback, clear results when test settings change, and recover from disabled providers or cancelled playback without a silent provider substitution.
+- Improved voice-model selection and call-worker startup reliability. Compatible call workers can use the Mac’s selected recognition provider while credentials remain on the Mac.
+
+## Beta limitations
+
+Live OpenAI speech output and file recognition have been verified. Live account verification for ElevenLabs, Deepgram and Cartesia is pending; those services require their own credentials and model access.
+
+The built-in Foundation chat model remains limited for agent tasks with a working folder: the production tool schemas can exceed its available context. That workflow has not passed native task-quality qualification.
+
+These adapters provide REST speech and segmented recognition, rather than vendor-native Realtime audio protocols. Hosted requests require connectivity and may incur provider charges. On-device speech requires its downloaded model. Call hosting remains a separate configuration, and explicit recognition selections require an updated compatible call worker; production Cloud-call acceptance is not established by the desktop provider checks.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.7-beta.2/Mellow-1.0.7-beta.2.dmg" length="522122046" type="application/octet-stream" sparkle:edSignature="qVWWSduCEkaK+jThM42c6L1TJg2OjkyN8rc8kVfbc0ST7a62O3DOzbNGCs/r8U3G1BivdSHJiKQa+WvpTx4lBw==" />
+    </item>
+    <item>
       <title>1.0.7-beta.1</title>
       <pubDate>Wed, 04 Nov 2026 06:13:39 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
