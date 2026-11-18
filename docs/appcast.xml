@@ -13,20 +13,20 @@
 
 This beta adds saved voice providers and individual speech settings for your agents.
 
-- Connect multiple OpenAI-compatible, ElevenLabs, Deepgram and Cartesia speech services with separate saved credentials and model/voice catalogs.
+- Connect speech services from several hosted providers, with separate saved credentials and model/voice catalogs.
 - Choose speech output and recognition independently for each agent, or inherit workspace defaults without changing the agent’s chat model.
-- Keep speech on this Mac with PocketTTS and Parakeet, or select a hosted model, voice, language and supported playback speed.
+- Keep speech on this computer with the built-in on-device models, or select a hosted model, voice, language and supported playback speed.
 - Manage connections through Mellow’s existing interface, with guided setup, catalog refresh, speech previews and audio-file recognition tests.
 - Get visible progress and error feedback, clear results when test settings change, and recover from disabled providers or cancelled playback without a silent provider substitution.
-- Improved voice-model selection and call-worker startup reliability. Compatible call workers can use the Mac’s selected recognition provider while credentials remain on the Mac.
+- Improved voice-model selection and call-worker startup reliability. Compatible call workers can use this computer’s selected recognition provider while credentials remain on this computer.
 
 ## Beta limitations
 
-Live OpenAI speech output and file recognition have been verified. Live account verification for ElevenLabs, Deepgram and Cartesia is pending; those services require their own credentials and model access.
+Live speech output and file recognition have been verified with one hosted provider. Live account verification for the other three is pending; those services require their own credentials and model access.
 
-The built-in Foundation chat model remains limited for agent tasks with a working folder: the production tool schemas can exceed its available context. That workflow has not passed native task-quality qualification.
+The built-in on-device chat model remains limited for agent tasks with a working folder: the production tool schemas can exceed its available context. That workflow has not passed native task-quality qualification.
 
-These adapters provide REST speech and segmented recognition, rather than vendor-native Realtime audio protocols. Hosted requests require connectivity and may incur provider charges. On-device speech requires its downloaded model. Call hosting remains a separate configuration, and explicit recognition selections require an updated compatible call worker; production Cloud-call acceptance is not established by the desktop provider checks.
+These adapters provide REST speech and segmented recognition, rather than vendor-native real-time audio protocols. Hosted requests require connectivity and may incur provider charges. On-device speech requires its downloaded model. Call hosting remains a separate configuration, and explicit recognition selections require an updated compatible call worker; production Cloud-call acceptance is not established by the desktop provider checks.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.7-beta.2/Mellow-1.0.7-beta.2.dmg" length="522122046" type="application/octet-stream" sparkle:edSignature="qVWWSduCEkaK+jThM42c6L1TJg2OjkyN8rc8kVfbc0ST7a62O3DOzbNGCs/r8U3G1BivdSHJiKQa+WvpTx4lBw==" />
@@ -47,13 +47,13 @@ This beta adds native design and signal workspaces in Mellow’s existing interf
 - Use Sensors &amp; BCI to set up supported signal sources, inspect live signals, record and review sessions, calibrate, and select compatible local analysis models.
 - Find setup and model controls through the existing settings navigation, with guided setup and consistent model cards.
 - Continue delegated agent sessions, cancel active work, and recover without leaving a temporary local model blocking the next task.
-- Improved provider diagnostics and tool compatibility, including native Sonnet 5.5 tool selection.
+- Improved provider diagnostics and tool compatibility, including native tool selection on one more model.
 
 ## Beta limitations
 
 Hardware support depends on the particular device, connection method, installed model, and available vendor services. Other-device and long-duration qualification is still ongoing. Signal analyses are exploratory and are not clinical measurements or diagnoses.
 
-Parallel delegation depends on the connected provider. Native GPT can issue worker requests sequentially, so simultaneous scheduling is not guaranteed on that route. Sonnet 5.5 supports the verified parallel workflows. Choose a provider compatible with the requested tools and generation options.
+Parallel delegation depends on the connected provider. Some providers issue worker requests sequentially, so simultaneous scheduling is not guaranteed on those routes. The verified parallel workflows ran on one provider. Choose a provider compatible with the requested tools and generation options.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.7-beta.1/Mellow-1.0.7-beta.1.dmg" length="521536491" type="application/octet-stream" sparkle:edSignature="hCkmXwjOOkXNISg/5FW1S3LjCqv4Hv9m/3doWXu/osTHM0bw7PLAEuatfb8MyQPhN+0kDLmpeV0EPIlQPOoYDw==" />
@@ -69,14 +69,14 @@ Parallel delegation depends on the connected provider. Native GPT can issue work
       <description sparkle:format="markdown"># Mellow 1.0.6
 
 - Organize agent profiles in local workspaces with persistent identities. Invite teammates and share selected agents through the existing Relay, using workspace membership, roles and scoped access.
-- Keep supported agent configuration in sync between this Mac and Mellow Cloud. Sync creates missing counterparts while preserving their identities; conflicts require an explicit choice.
+- Keep supported agent configuration in sync between this computer and Mellow Cloud. Sync creates missing counterparts while preserving their identities; conflicts require an explicit choice.
 - Open shared and Cloud-linked agents in native chats. Agent cards now show where profiles are available and keep management, setup and hosting actions together.
 - Set up Cloud connections and agent publication through guided flows that use the selected account’s actual permissions, model and voice catalog.
 - Navigate settings with Back and Forward, find workspace actions through search, and expand instruction previews by clicking the full review row.
-- Manage and refresh Claude Code from Providers, with clearer recovery when its service rejects an expired or revoked sign-in.
-- Includes the preceding onboarding, settings organization and iPhone confirmation-layout improvements.
+- Manage and refresh a connected coding agent’s sign-in from Providers, with clearer recovery when its service rejects an expired or revoked sign-in.
+- Includes the preceding onboarding, settings organization and phone confirmation-layout improvements.
 
-Mellow Cloud is optional. Configuration sync does not transfer conversations, memory, files, credentials, private signing keys or Mac permissions, and it does not start hosting automatically. Shared agents remain subject to current workspace access and host availability. Voice, live avatars and remote execution require their configured services. The iPhone companion requires a paired Mac and is distributed separately through TestFlight.
+Mellow Cloud is optional. Configuration sync does not transfer conversations, memory, files, credentials, private signing keys or system permissions, and it does not start hosting automatically. Shared agents remain subject to current workspace access and host availability. Voice, live avatars and remote execution require their configured services. The phone companion requires a paired computer and is distributed separately as a beta.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6/Mellow-1.0.6.dmg" length="461335894" type="application/octet-stream" sparkle:edSignature="+baLGSSsZpQyiEYDMgnYuKGFLcGR8xq/lKPGP/tovd1TYdti54ijhck18e5rmC8C8U1Lgi3RwfPZXvlnBmvuBw==" />
@@ -93,12 +93,12 @@ Mellow Cloud is optional. Configuration sync does not transfer conversations, me
 
 - Meet Mellow as a local-first productivity suite for agents and their humans, with clearer onboarding and language across workspaces, responsibilities, tools, knowledge, and permissions.
 - Enjoy a more welcoming Mellow Cloud experience, with consistent agent and workspace pages, clearer connection settings, and centered sign-in actions.
-- Keep iOS confirmations centered with a visible Cancel action, and keep error banners clear of navigation and content.
-- Make iOS primary buttons readable in light and dark appearance with every Mellow coat.
+- Keep mobile confirmations centered with a visible Cancel action, and keep error banners clear of navigation and content.
+- Make mobile primary buttons readable in light and dark appearance with every Mellow coat.
 - Find renamed settings through Management search and the updated in-app guide.
-- The companion iOS update lets you forget an old saved Mac even when it is offline or its pairing has expired, while preserving your other Macs and their drafts.
+- The companion mobile update lets you forget an old saved computer even when it is offline or its pairing has expired, while preserving your other computers and their drafts.
 
-Mellow Cloud is optional. Voice and live avatars require configured services; physical-device concepts are distinct from live avatars. Air-gapped use requires local dependencies. The iPhone companion requires a paired Mac and is distributed through TestFlight. This release does not deploy hosted services.
+Mellow Cloud is optional. Voice and live avatars require configured services; physical-device concepts are distinct from live avatars. Air-gapped use requires local dependencies. The phone companion requires a paired computer and is distributed separately as a beta. This release does not deploy hosted services.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.16/Mellow-1.0.6-beta.16.dmg" length="460712493" type="application/octet-stream" sparkle:edSignature="SPeIOulYhKYedh+x31Do8vLspgZ6ZQneDSwym0fFEjNue46yljRiAemxDGgqH7wm2VvlsUslqyAgkluK11mZCw==" />
@@ -117,7 +117,7 @@ Mellow Cloud is optional. Voice and live avatars require configured services; ph
 - Handle speech-worker announcement races during call startup while retaining worker-role, session, and recovery checks.
 - Keep video renderers and delegated media participants outside the speech worker's privileged RPC path.
 
-Calls require a compatible backend and call worker. Video rendering can take several minutes to start from idle. This beta does not guarantee cold-start latency or seamless network switching. The iPhone companion is distributed separately through TestFlight; this release does not deploy hosted services.
+Calls require a compatible backend and call worker. Video rendering can take several minutes to start from idle. This beta does not guarantee cold-start latency or seamless network switching. The phone companion is distributed separately as a beta; this release does not deploy hosted services.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.14/Mellow-1.0.6-beta.14.dmg" length="460704638" type="application/octet-stream" sparkle:edSignature="9EmfS/JfHizYP7FdQfDL1f2f4zhuB+Wg71OuSDHzkHF3RShf4Ui04ztm25m/OKYC/Q7PqL8wB2y1yLNRi4x8Dw==" />
@@ -132,15 +132,15 @@ Calls require a compatible backend and call worker. Video rendering can take sev
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.13
 
-- Add automated iOS signing, validation, and TestFlight uploads alongside tagged Mac releases. Apple processing and beta review remain separate steps.
-- Add paired-Mac support for native iPhone voice and video calls, including protected video admission and the agent’s configured portrait.
+- Add automated mobile signing, validation, and beta uploads alongside tagged desktop releases. Store processing and beta review remain separate steps.
+- Add paired-computer support for native phone voice and video calls, including protected video admission and the agent’s configured portrait.
 - Allow cold video-renderer preparation to finish without applying the shorter missing-worker recovery deadline.
-- Improve portrait delivery through the relay. The iPhone companion caches bounded portrait thumbnails locally while video rendering uses the original image.
-- Refine the iPhone call interface with separate voice/video buttons, consistent controls, and camera-off preview behavior. Startup failures identify the failing connection stage.
+- Improve portrait delivery through the relay. The phone companion caches bounded portrait thumbnails locally while video rendering uses the original image.
+- Refine the phone call interface with separate voice/video buttons, consistent controls, and camera-off preview behavior. Startup failures identify the failing connection stage.
 
-Physical iPhone testing confirmed visible agent video and spoken replies through the paired Mac. One cold renderer startup took about 3 minutes 40 seconds; a subsequent warm admission took about 6 seconds. These observations are not a latency guarantee or qualification of every model/provider.
+Testing on a physical phone confirmed visible agent video and spoken replies through the paired computer. One cold renderer startup took about 3 minutes 40 seconds; a subsequent warm admission took about 6 seconds. These observations are not a latency guarantee or qualification of every model/provider.
 
-Calls require a compatible backend, call worker, and configured video-rendering service. This Mac update does not deploy those services. The iPhone companion is distributed separately through TestFlight. Calls remain foreground-only; camera transport does not automatically provide model visual context.
+Calls require a compatible backend, call worker, and configured video-rendering service. This desktop update does not deploy those services. The phone companion is distributed separately as a beta. Calls remain foreground-only; camera transport does not automatically provide model visual context.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.13/Mellow-1.0.6-beta.13.dmg" length="460703981" type="application/octet-stream" sparkle:edSignature="ruj3zt47KokdDWuAR7QGq3KSkZ/gMM41SOLzGR6++DZ/VzTHKCJv/fYyYYOc8tsUeP0bDQqdEkYJsEhMGTqaAw==" />
@@ -155,14 +155,14 @@ Calls require a compatible backend, call worker, and configured video-rendering 
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.12
 
-- Use an agent’s portrait in local-agent video calls while your Mac keeps ownership of the conversation, model, tools and speech. Voice-only calls do not request a video renderer.
+- Use an agent’s portrait in local-agent video calls while your computer keeps ownership of the conversation, model, tools and speech. Voice-only calls do not request a video renderer.
 - Preserve original portrait images and custom portraits when changing themes, and keep Settings readable in the selected appearance.
 - Open the selected conversation when clicking an agent card, dismissing Settings so the chat is immediately visible.
 - Improve call startup, cancellation and cleanup. Retry eligible timed-out call requests with the same conversation item, and retire an unreachable worker when bounded recovery fails.
 
 Local-agent video was checked in the app with an audible answer, a follow-up calculation, visible lip sync and a spoken Stop interruption. Cold startup and a warm restart were observed separately; transport reconnect was not measured. These checks do not establish support for every model, voice provider or deployment.
 
-Animated local-agent video requires a compatible CAST deployment, call worker and configured portrait-rendering facility. Installing this desktop update does not deploy those services. The iOS companion limitations described in beta.10 remain unchanged.
+Animated local-agent video requires a compatible CAST deployment, call worker and configured portrait-rendering facility. Installing this desktop update does not deploy those services. The mobile companion limitations described in beta.10 remain unchanged.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.12/Mellow-1.0.6-beta.12.dmg" length="460619146" type="application/octet-stream" sparkle:edSignature="5waw4fjIegQMZlcx1QmyrXeGtWszvhfW9rMTfVFC/URQDWPDeSDclHqEzk4XZdHdLizCoaW9jTnX3sXOq+lpBg==" />
@@ -177,16 +177,16 @@ Animated local-agent video requires a compatible CAST deployment, call worker an
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.11
 
-- Bring workspace agents, tools, publishing, and Mac hosting into a consistent Mellow interface, with Settings in a centered dialog over your conversation.
+- Bring workspace agents, tools, publishing, and local hosting into a consistent Mellow interface, with Settings in a centered dialog over your conversation.
 - Open a conversation directly from an agent card, and preserve the existing workspace connection when signing in again.
 - Improve local task continuity so follow-up requests use the latest conversation context, including after reconnecting or reopening Mellow.
 - Improve local-agent voice calls and cloud-avatar call handling, including pending starts, call controls, and ending a session. Prevent separate CAST deployments that share a media service from removing each other's call rooms.
-- Fix browser edits disappearing from React-controlled input and text fields after the page updates.
+- Fix browser edits disappearing from framework-controlled input and text fields after the page updates.
 - Fix file-history persistence and improve translations across the workspace interface.
 
 Local-agent voice was checked with an audible answer and a follow-up calculation; cloud-avatar video and an audible reply were checked separately. These checks do not establish support for every model, voice provider, or deployment. Local models can still add unsolicited text to otherwise correct answers.
 
-Workspace publishing and call improvements require a compatible CAST deployment and call worker. This beta does not add local-agent animated portrait video or change the iOS companion limitations described in beta.10.
+Workspace publishing and call improvements require a compatible CAST deployment and call worker. This beta does not add local-agent animated portrait video or change the mobile companion limitations described in beta.10.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.11/Mellow-1.0.6-beta.11.dmg" length="460625270" type="application/octet-stream" sparkle:edSignature="TYI+PVOHU2ef2fICZjXNNRJ3eQH/SjcU5U56aAzMqHBvfkG1FbtlfrJASm05tV3b+l7VWlfjfJjDdR2WgBWtBg==" />
@@ -201,15 +201,15 @@ Workspace publishing and call improvements require a compatible CAST deployment 
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.10
 
-- Add Mac support for the native Mellow iPhone and iPad companion, with encrypted connections and QR-first pairing.
-- Let paired owners manage supported agent and project configuration, Conversation preferences, and engine settings through reviewed changes on the Mac.
+- Add desktop support for the native Mellow phone and tablet companion, with encrypted connections and QR-first pairing.
+- Let paired owners manage supported agent and project configuration, Conversation preferences, and engine settings through reviewed changes on the computer.
 - Add protected chat editing, regeneration, exchange removal, retained-task replies, and response-inspection endpoints for compatible mobile clients.
 - Improve retained conversation continuity, project context, model options and favourites, and authenticated agent portraits.
 - Show captured sampling overrides accurately in Insights instead of reporting an output limit that was not requested.
 
-This is an incremental beta and an iOS companion support preview, not complete desktop parity. Some desktop settings, project file and knowledge-content management, and voice/call features remain unavailable on iOS. Complete paired-device, lifecycle, media, accessibility, and iPad validation is still in progress. An intermittent rapid Inspector-dismissal/navigation issue remains under investigation. The iOS app is distributed separately; updating the Mac does not install it.
+This is an incremental beta and a mobile companion support preview, not complete desktop parity. Some desktop settings, project file and knowledge-content management, and voice/call features remain unavailable on mobile. Complete paired-device, lifecycle, media, accessibility, and tablet validation is still in progress. An intermittent rapid Inspector-dismissal/navigation issue remains under investigation. The mobile app is distributed separately; updating the desktop app does not install it.
 
-Existing pairing and owner-approval requirements remain in force. Update the Mac before using mobile features that require these new endpoints.
+Existing pairing and owner-approval requirements remain in force. Update the desktop app before using mobile features that require these new endpoints.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.10/Mellow-1.0.6-beta.10.dmg" length="460286893" type="application/octet-stream" sparkle:edSignature="TsUF7NtVjctzlqsOUFl/AQ5P8FC33pICSjViqRdfTnEAwbKYX/fyTbJ/G/AYIJNpuWBGh24yI4UYWOtwKzz8BQ==" />
@@ -228,9 +228,9 @@ Existing pairing and owner-approval requirements remain in force. Update the Mac
 - Keep the agent’s configured voice, model, tools, and conversation history during avatar calls.
 - Improve call recovery after network interruptions and avoid reusing retired call workers.
 - Prepare microphone and camera permissions before joining, and cancel pending call setup cleanly.
-- Correct Teams chat stream handling and add privacy-safe diagnostics for calls that end unexpectedly.
+- Correct meeting chat stream handling and add privacy-safe diagnostics for calls that end unexpectedly.
 
-Avatar calls require a separately configured compatible service. Teams avatar attendance remains experimental; a complete Teams validation for every agent is not included in this beta. Ordinary typed chat remains text-only.
+Avatar calls require a separately configured compatible service. Avatar attendance in external meetings remains experimental; a complete meeting validation for every agent is not included in this beta. Ordinary typed chat remains text-only.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.9/Mellow-1.0.6-beta.9.dmg" length="460154484" type="application/octet-stream" sparkle:edSignature="L1gfzKgA0/KxYON9GvXnq5YMZoEcZOhZ7JOg2OXMpS9lqb6WkHCcKfVcKBBKnFQ3/lpdiJeYed54q2HFck0YAQ==" />
@@ -249,7 +249,7 @@ Avatar calls require a separately configured compatible service. Teams avatar at
 - Preserve completed conversation history when navigating to another chat or starting a new one.
 - Wait for a restored tab’s transcript before appending a grouped channel follow-up.
 
-Agent settings, Slack app bindings, credentials, and model defaults are unchanged.
+Agent settings, chat-app bindings, credentials, and model defaults are unchanged.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.8/Mellow-1.0.6-beta.8.dmg" length="460051431" type="application/octet-stream" sparkle:edSignature="W8d1KpDK6IZ88cuiu71GNWGTFWY83S4q+ZqXSBAs0rv0ZjGxQxdbeFcGfMKXI38w3Oq3YrXSAuUB+TV+OUUEBA==" />
@@ -264,15 +264,15 @@ Agent settings, Slack app bindings, credentials, and model defaults are unchange
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.7
 
-- Show the selected Slack app's receive status instead of the inactive original connection.
-- Load channels and direct messages for Slack apps without optional group-DM access.
-- Preserve manually entered channel and sender access when Slack discovery is incomplete.
+- Show the selected chat app's receive status instead of the inactive original connection.
+- Load channels and direct messages for chat apps without optional group-DM access.
+- Preserve manually entered channel and sender access when channel discovery is incomplete.
 
-- Correct inbound message authorization for separately connected Slack apps.
+- Correct inbound message authorization for separately connected chat apps.
 
-- Summarize all active Slack apps in the Channels card and diagnostics, including missing or unhealthy receivers.
+- Summarize all active chat apps in the Channels card and diagnostics, including missing or unhealthy receivers.
 
-Agent settings, credentials, and existing Slack app bindings are preserved.
+Agent settings, credentials, and existing chat-app bindings are preserved.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.7/Mellow-1.0.6-beta.7.dmg" length="460017487" type="application/octet-stream" sparkle:edSignature="0XhEf/GEnXI/QJZhuRadIvJn0zo7AP+9CCTOyOP7Kckl2tbzcQHNBheNCQQgPBEDaBZkyRpX/k0metDHVos7CQ==" />
@@ -287,12 +287,12 @@ Agent settings, credentials, and existing Slack app bindings are preserved.
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.6
 
-- Connect multiple Slack apps in one workspace, each bound to its own Mellow agent.
+- Connect multiple chat apps in one workspace, each bound to its own Mellow agent.
 - Keep each app's credentials, receiver, conversations and replies separate.
-- Adopt an existing Slack connection without duplicating its receiver or losing its thread history.
+- Adopt an existing chat-app connection without duplicating its receiver or losing its thread history.
 - Add direct-message access for approved people, with recipient checks before reading or sending.
 
-Existing agents, model and voice settings are preserved. Live validation of the seven-agent Slack setup on M4 is scheduled after installation through Mellow's updater.
+Existing agents, model and voice settings are preserved. Live validation of the seven-agent chat-app setup is scheduled after installation through Mellow's updater.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.6/Mellow-1.0.6-beta.6.dmg" length="460019306" type="application/octet-stream" sparkle:edSignature="7MsrXg1wSQuN6u7FijoJvYCoiCb29uuaTd/NKLucZqsbNvlUn2EB3+gdl4fr/mJO0c/JDDOfNGioUw8TBwAuAg==" />
@@ -309,11 +309,11 @@ Existing agents, model and voice settings are preserved. Live validation of the 
 
 - Connect Mellow Cloud workspaces and browse their agents from the main app.
 - Submit workspace tasks, follow their progress, cancel running work, and revisit saved results.
-- Run authorized workspace tasks on this Mac while keeping host access explicit and revocable.
+- Run authorized workspace tasks on this computer while keeping host access explicit and revocable.
 - Improve workspace sign-in recovery and show a clear connection error when a service is unavailable.
 - Preserve task results across restarts and prevent interrupted work from replaying automatically.
 
-Files, memory, and execution remain on the selected host. Workspace task execution requires a compatible workspace service and an explicitly connected Mac host. Reconnect the host after its connection or authority is lost; interrupted tasks are not replayed automatically.
+Files, memory, and execution remain on the selected host. Workspace task execution requires a compatible workspace service and an explicitly connected host computer. Reconnect the host after its connection or authority is lost; interrupted tasks are not replayed automatically.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.5/Mellow-1.0.6-beta.5.dmg" length="459916942" type="application/octet-stream" sparkle:edSignature="rO+TWobMfYfCekC17Bhx/vI32mv83BE/UYN1AG3Jnhgoyat7kU2jmHdfKSH0Pa67Sp0o2EOx8Mdwz3GmOd4gDQ==" />
@@ -328,11 +328,11 @@ Files, memory, and execution remain on the selected host. Workspace task executi
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.4
 
-- Fix delegated agent tasks failing when using a ChatGPT subscription model.
+- Fix delegated agent tasks failing when using a subscription-based model.
 - Preserve explicitly configured provider limits and existing agent settings.
 - Support awaiting a specialist's result during a call and returning it through the coordinating agent.
 
-ChatGPT subscription transport does not accept an output-token cap; delegated tasks retain their time, turn and cancellation controls. Long-running background results do not automatically trigger speech after a call turn ends.
+That subscription transport does not accept an output-token cap; delegated tasks retain their time, turn and cancellation controls. Long-running background results do not automatically trigger speech after a call turn ends.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.4/Mellow-1.0.6-beta.4.dmg" length="459839288" type="application/octet-stream" sparkle:edSignature="ncVKdAXwXHSdTEd4W+FyMyOSlxSuxGOBvuw4w/mRce+4RftJwZOdNy7MunqoSrSsqNpN1s4rPtfNX/gpRQSRDg==" />
@@ -347,9 +347,9 @@ ChatGPT subscription transport does not accept an output-token cap; delegated ta
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.6-beta.3
 
-- Open paired Mac conversations in their own device tab group.
+- Open paired-computer conversations in their own device tab group.
 - Switch between host conversations while keeping drafts and tracked work available.
-- Reopen saved host conversations after restarting Mellow, with their history staying on the paired Mac.
+- Reopen saved host conversations after restarting Mellow, with their history staying on the paired computer.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.3/Mellow-1.0.6-beta.3.dmg" length="459838937" type="application/octet-stream" sparkle:edSignature="y2yR2nCm6+0uU/7BZU5IcKBrvjcsDrGddImQDUwinJvE6w8E11niz9vZSnOev+7xx0xa+UlHdwiRit0jI8kKCA==" />
@@ -391,9 +391,9 @@ This preview improves agent speech and keeps call controls close to your convers
 - Interrupting or leaving stops the active speech stream. Call startup handles worker connection timing more reliably.
 - A compact call panel stays with your chat, with microphone, camera, video visibility and end-call controls. Navigate away and return to the same conversation to resume its controls.
 
-Download **Mellow-1.0.6-beta.1.dmg** for Apple silicon Macs, or enable **Beta Updates** in Mellow. Existing agents, settings and conversations are retained. Stable-channel users are not automatically offered this preview.
+Download **Mellow-1.0.6-beta.1.dmg**, or enable **Beta Updates** in Mellow. Existing agents, settings and conversations are retained. Stable-channel users are not automatically offered this preview.
 
-Calls require an authenticated Cloud workspace and configured call services. Speech has been checked on M4 against the Develop workspace, including a user listening check for short and longer replies and interruption. This preview does not establish new Teams, iPhone relay, or every device/network combination as qualified. Slow speech generation can increase the initial wait before playback.
+Calls require an authenticated Cloud workspace and configured call services. Speech has been checked against the Develop workspace, including a user listening check for short and longer replies and interruption. This preview does not establish new external-meeting, phone relay, or every device/network combination as qualified. Slow speech generation can increase the initial wait before playback.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.6-beta.1/Mellow-1.0.6-beta.1.dmg" length="459730050" type="application/octet-stream" sparkle:edSignature="pZ8IgSYqMMag0TRoWDryBk9t6fioQEd9PrVry6lXRIbdVVAEGmrn1Ioi7C159iRv9CV0/zEeOYIKLIzkLqWqDA==" />
@@ -410,16 +410,16 @@ Calls require an authenticated Cloud workspace and configured call services. Spe
 
 ## Agent voices and models in calls
 
-- Call replies use the agent’s selected voice and the Mac’s configured speech provider, model, and speed or temperature settings.
+- Call replies use the agent’s selected voice and this computer’s configured speech provider, model, and speed or temperature settings.
 - Meeting conversations refresh the agent’s configured model before each spoken turn. Direct calls preserve an explicit model selection in the chat.
 - An unavailable model or voice produces an error instead of silently switching to a different configuration.
-- Meeting audio stays in the call. The agent’s speak tool cannot also play its response through the host Mac’s speakers.
+- Meeting audio stays in the call. The agent’s speak tool cannot also play its response through the host computer’s speakers.
 
 ## Compatibility and testing status
 
-This build requires a matching updated call worker. Installing the app alone does not update the hosted service. Calls remain in testing; a final live Teams voice check and hosted rollout are pending. Speech recognition continues to use the call service’s transcription provider. Desktop automatic read-aloud is separate from speech in an explicitly started call.
+This build requires a matching updated call worker. Installing the app alone does not update the hosted service. Calls remain in testing; a final live external-meeting voice check and hosted rollout are pending. Speech recognition continues to use the call service’s transcription provider. Desktop automatic read-aloud is separate from speech in an explicitly started call.
 
-Existing agent settings and conversations are retained. This build targets Apple silicon Macs; no Windows, Linux, or Android application build is included.
+Existing agent settings and conversations are retained. No build for other platforms is included.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.5/Mellow-1.0.5.dmg" length="459651586" type="application/octet-stream" sparkle:edSignature="I7+JzDVwp5NQtswm4w/HxADhLC4YjQKALZ9782Gif3b5oRw1jFbmDCQ0Dn+7w2IczRJvuO/tY0ji3yM43eJzBg==" />
@@ -443,18 +443,18 @@ Mellow now uses a separate numeric build version so the updater can distinguish 
 ## Calls and meetings
 
 - Return to an active call or meeting from chat to reach its controls and leave.
-- Meeting and paired-call hosts keep media off the host Mac's speakers and microphone, including after network reconnects. Direct calls retain normal local audio.
+- Meeting and paired-call hosts keep media off the host computer's speakers and microphone, including after network reconnects. Direct calls retain normal local audio.
 - Call replies wait for the agent's complete response. Calls retain the existing agent and conversation.
 
 ## Install or update
 
-Download **Mellow-1.0.4.dmg** and move Mellow to Applications, or use **Check for Updates** in Mellow. This release is for Apple silicon Macs. Existing agent settings and conversations are retained.
+Download **Mellow-1.0.4.dmg** and move Mellow to Applications, or use **Check for Updates** in Mellow. Existing agent settings and conversations are retained.
 
 ## Call feature status
 
-Calls and meetings remain in testing. They require an authenticated Cloud workspace with matching call and meeting services configured; installing the app does not deploy those services. Teams voice was exercised with a local development workspace. Hosted deployment, Teams text-chat delivery, the complete leave/rejoin lifecycle, and iPhone relay calls are not yet fully qualified. Multiple speakers are not yet reliably attributed by name in the agent's transcript.
+Calls and meetings remain in testing. They require an authenticated Cloud workspace with matching call and meeting services configured; installing the app does not deploy those services. External-meeting voice was exercised with a local development workspace. Hosted deployment, meeting text-chat delivery, the complete leave/rejoin lifecycle, and phone relay calls are not yet fully qualified. Multiple speakers are not yet reliably attributed by name in the agent's transcript.
 
-Local models and configured providers remain separate from Cloud workspace access. No Windows, Linux, or Android application build is included.
+Local models and configured providers remain separate from Cloud workspace access. No build for other platforms is included.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.4/Mellow-1.0.4.dmg" length="459694622" type="application/octet-stream" sparkle:edSignature="FM1s7PhMmKb7Jku8sedJNb84nWQZbxh+DPeDgsOqyjqqiFIWdb9kfx6fFKLKi+W2agng85n0SmMbTEZYUSOmAg==" />
@@ -469,24 +469,24 @@ Local models and configured providers remain separate from Cloud workspace acces
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.3 Preview 3
 
-An Apple silicon preview of agent calls and meeting controls, with fixes for audio routing and reply completion.
+A preview of agent calls and meeting controls, with fixes for audio routing and reply completion.
 
 ## What's new
 
 - Agent calls use the existing agent and saved conversation. Repeated joins to the same meeting continue its conversation.
 - Return to an active call or meeting from chat to reach its controls and leave the meeting.
-- Meeting and paired-call hosts keep media off the Mac's speakers and microphone, including after a network reconnect. Direct calls on the Mac retain their normal audio controls.
+- Meeting and paired-call hosts keep media off the computer's speakers and microphone, including after a network reconnect. Direct calls on the computer retain their normal audio controls.
 - Call replies wait for the agent's complete response before delivery.
 
 ## Local model updates
 
 - Discover a smaller, curated catalog with clear model sources.
-- Download Visca's independently converted Qwen3 1.7B MLX 4-bit model, with a Mellow model card, conversion details, and original-author attribution.
-- Use Liquid's published LFM2.5 1.2B MLX 4-bit model for local chat.
-- Import compatible Hugging Face models directly. Existing installed models remain available, and downloads retain model licence and notice files.
+- Download Visca's independently converted 1.7B 4-bit local model, with a Mellow model card, conversion details, and original-author attribution.
+- Use a published 1.2B 4-bit model for local chat.
+- Import compatible models directly from a public model hub. Existing installed models remain available, and downloads retain model licence and notice files.
 - Short numeric answers remain visible when streamed replies finish, and cached model weight sizes account for symbolic links.
 
-The initial image catalog is empty; compatible image models can still be imported. Gemma is not included in this beta. Model downloads require an internet connection; downloaded local models run on your Mac. Tool support depends on the selected model. This beta does not introduce Windows, Linux, or Android builds.
+The initial image catalog is empty; compatible image models can still be imported. One previously listed model family is not included in this beta. Model downloads require an internet connection; downloaded local models run on your computer. Tool support depends on the selected model. This beta does not introduce builds for other platforms.
 
 ## Install or update
 
@@ -494,11 +494,11 @@ Download **Mellow-1.0.3-beta.3.dmg** and move Mellow to Applications. Existing u
 
 ## Preview scope
 
-- Calls and meeting participation require an authenticated Cloud workspace with the matching call and meeting services configured. Installing this Mac app alone does not deploy or enable those services.
-- Teams voice has been exercised with a local development workspace. Hosted deployment and every account/network combination are not qualified by that test.
-- Teams text-chat delivery is still being verified. Do not rely on meeting chat for unattended work in this preview.
+- Calls and meeting participation require an authenticated Cloud workspace with the matching call and meeting services configured. Installing this desktop app alone does not deploy or enable those services.
+- External-meeting voice has been exercised with a local development workspace. Hosted deployment and every account/network combination are not qualified by that test.
+- Meeting text-chat delivery is still being verified. Do not rely on meeting chat for unattended work in this preview.
 - Multiple speakers are not yet reliably attributed by name in the agent's transcript.
-- iPhone relay calls and the complete leave/rejoin lifecycle remain in testing.
+- Phone relay calls and the complete leave/rejoin lifecycle remain in testing.
 
 This is an opt-in testing preview, not a claim that every call, model, or device workflow is production-ready.
 
@@ -515,7 +515,7 @@ This is an opt-in testing preview, not a claim that every call, model, or device
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.3 Preview 2
 
-A preview for Apple silicon Macs, with refreshed chat and model selection, quick and companion panels, clearer local-server recovery, and voice and pairing lifecycle improvements.
+A preview with refreshed chat and model selection, quick and companion panels, clearer local-server recovery, and voice and pairing lifecycle improvements.
 
 This update adds an original family of 37 Mellow vector icons across navigation and product actions. Routes and settings are unchanged; official provider logos and operating-system status symbols are preserved. Model cards use cleaner descriptions while source details remain available.
 
@@ -527,11 +527,11 @@ Download **Mellow-1.0.3-beta.2.dmg** from this release and move Mellow to Applic
 
 - Local models and configured providers remain separate from Cloud workspace access. Download a local model or connect a provider before chatting.
 - Cloud features require a configured, authenticated workspace and the appropriate permissions. Delegated agent work also requires published, eligible agents. Workspace sign-in does not supply independent cloud-model service credits.
-- The iPhone companion is still in user testing. Pairing, relay availability and model access depend on the host Mac; this release does not establish every phone/network combination as qualified.
+- The phone companion is still in user testing. Pairing, relay availability and model access depend on the host computer; this release does not establish every phone/network combination as qualified.
 - Voice input requires microphone permission and a transcription model. Global insertion can additionally require Accessibility permission. Recognition quality depends on the microphone and environment.
-- This is a preview: final visual checks for every layout and end-to-end checks for every account/device flow are not complete. There are no Windows, Linux desktop or Android app downloads in this release.
+- This is a preview: final visual checks for every layout and end-to-end checks for every account/device flow are not complete. There are no downloads for other platforms in this release.
 
-The macOS package is Developer ID signed and notarized. Signing and notarization verify distribution integrity; they do not imply all external services or account flows are configured.
+The package is signed and notarized. Signing and notarization verify distribution integrity; they do not imply all external services or account flows are configured.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.3-beta.2/Mellow-1.0.3-beta.2.dmg" length="443294086" type="application/octet-stream" sparkle:edSignature="bawweyN0EpTd1axHpTejhCFjQYAGOAWxgIOuLyeF98z264IIf+xR40qDcoy/vTi8fFWay2H+fzGXhQZRejhCCQ==" />
@@ -546,7 +546,7 @@ The macOS package is Developer ID signed and notarized. Signing and notarization
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description sparkle:format="markdown"># Mellow 1.0.3 Preview
 
-A preview for Apple silicon Macs, with refreshed chat and model selection, quick and companion panels, clearer local-server recovery, and voice and pairing lifecycle improvements.
+A preview with refreshed chat and model selection, quick and companion panels, clearer local-server recovery, and voice and pairing lifecycle improvements.
 
 ## Install or update
 
@@ -556,11 +556,11 @@ Download **Mellow-1.0.3-beta.1.dmg** from this release and move Mellow to Applic
 
 - Local models and configured providers remain separate from Cloud workspace access. Download a local model or connect a provider before chatting.
 - Cloud features require a configured, authenticated workspace and the appropriate permissions. Delegated agent work also requires published, eligible agents. Workspace sign-in does not supply independent cloud-model service credits.
-- The iPhone companion is still in user testing. Pairing, relay availability and model access depend on the host Mac; this release does not establish every phone/network combination as qualified.
+- The phone companion is still in user testing. Pairing, relay availability and model access depend on the host computer; this release does not establish every phone/network combination as qualified.
 - Voice input requires microphone permission and a transcription model. Global insertion can additionally require Accessibility permission. Recognition quality depends on the microphone and environment.
-- This is a preview: final visual checks for every layout and end-to-end checks for every account/device flow are not complete. There are no Windows, Linux desktop or Android app downloads in this release.
+- This is a preview: final visual checks for every layout and end-to-end checks for every account/device flow are not complete. There are no downloads for other platforms in this release.
 
-The macOS package is Developer ID signed and notarized. Signing and notarization verify distribution integrity; they do not imply all external services or account flows are configured.
+The package is signed and notarized. Signing and notarization verify distribution integrity; they do not imply all external services or account flows are configured.
 
 </description>
       <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.3-beta.1/Mellow-1.0.3-beta.1.dmg" length="443248070" type="application/octet-stream" sparkle:edSignature="HtQE6CUllUa6oOcsNoH1qANDfpwzSD7tw09Rvaz+5uHZMjHJMV/Nd1EITfbkOJmmtly6Nvi9peCm7YFimiWfCA==" />
@@ -573,13 +573,13 @@ The macOS package is Developer ID signed and notarized. Signing and notarization
       <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description sparkle:format="markdown">Mellow 1.0.2 for Apple silicon Macs.
+      <description sparkle:format="markdown">Mellow 1.0.2.
 
 - Redesigned settings and quick panel.
 - Signed automatic update support with an update-available prompt.
 - Unified update status in settings and the quick panel.
 
-This prerelease is undergoing update/install qualification. Both the application and disk image have passed Apple notarization. General release promotion awaits the live upgrade and relaunch check.
+This prerelease is undergoing update/install qualification. Both the application and disk image have passed notarization. General release promotion awaits the live upgrade and relaunch check.
 
 Earlier builds with updates disabled require one manual installation of an update-enabled release.
 </description>
