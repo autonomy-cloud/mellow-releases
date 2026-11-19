@@ -2,6 +2,41 @@
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <item>
+      <title>1.0.7-beta.3</title>
+      <pubDate>Thu, 19 Nov 2026 04:34:28 +0000</pubDate>
+      <sparkle:channel>beta</sparkle:channel>
+      <sparkle:version>1.0.70003</sparkle:version>
+      <sparkle:shortVersionString>1.0.7-beta.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description sparkle:format="markdown"># Mellow 1.0.7 Beta 3
+
+This beta gives Mellow a new window layout and moves Mellow Cloud to managed agents. It also removes the earlier cloud features, so read the limitations before updating.
+
+- Find everything from one rail: Home, Agents, Conversations, Routines, Knowledge, Tools &amp; skills and Connections. Settings now open as pages beside the rail, with Back, Forward and search, on Mac, iPhone and iPad.
+- Sign in to Mellow Cloud once to use the agents your organization runs on Visca Managed Agents. Each agent asks for your permission in the browser the first time, and you can remove that permission at any time.
+- Chat with a cloud agent from the same composer as your local agents. It keeps working when this Mac is asleep, and a reply that finished while Mellow was closed appears when you open the conversation again.
+- Answer an agent's questions and approve or deny what it wants to do, in the chat.
+- Send a message while the agent is still working. It is taken into the running reply, or held and run next.
+- Receive files the agent shares as cards in the chat, saved with the conversation. Send the agent document text, a picture or a file of your own.
+- See when a cloud agent has done work you have not looked at yet, on the conversation and in the list.
+- Signals is now marked Beta.
+- New papery mascot characters and themes.
+
+## Beta limitations
+
+Earlier Mellow Cloud features are removed in this build and have no replacement yet: publishing agents to the cloud, keeping agent profiles in sync with the cloud, cloud tasks, and using this Mac as a cloud runtime. A saved sign-in from the earlier Mellow Cloud is signed out when this build first starts. Conversations that ran on the earlier cloud stay readable but cannot be continued.
+
+Hosted calls are paused. If you use Mellow's hosted call service, starting a voice or video call, joining a meeting, or calling from a paired iPhone reports that hosted calls are not available yet. Calls on your own call server are unchanged. A call started from a cloud agent's conversation uses the local agent.
+
+A cloud agent needs a model key before it can answer: an owner adds one under the agent's Configuration in the Managed Agents console. Until then the agent reports "Authentication required". The built-in agent already accepts Mellow. An agent an owner created also needs the AHP v1 API added under its Integrations before Mellow can use it.
+
+Sign-in, chat, shared files and uploads were checked against the production service with one organization and one agent. Attaching a file through the file picker, calls, and the iPhone and iPad layouts were not re-checked for this beta. Uploads are limited to 512 MiB per file, and to what the agent's service allows.
+
+</description>
+      <enclosure url="https://github.com/autonomy-cloud/mellow-releases/releases/download/1.0.7-beta.3/Mellow-1.0.7-beta.3.dmg" length="520098021" type="application/octet-stream" sparkle:edSignature="sQvEP4wtc+ROTmZPoKc92W2DGz0wiYbEmiomYw+flDFYpbKwzuzMcj2NpJ50XdLwXrDCHuEpKUqcI2Wq3nhiCw==" />
+    </item>
+    <item>
       <title>1.0.7-beta.2</title>
       <pubDate>Wed, 04 Nov 2026 21:20:36 +0000</pubDate>
       <sparkle:channel>beta</sparkle:channel>
